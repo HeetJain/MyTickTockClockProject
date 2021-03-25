@@ -9,6 +9,7 @@ function draw() {
   background(255,255,255);
 
   translate(200,200);
+  rotate(-90);
   let hr = hour();
   let sc = second();
   let mn = minute();
